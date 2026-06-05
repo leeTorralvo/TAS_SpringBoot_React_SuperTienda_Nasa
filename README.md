@@ -33,11 +33,7 @@ Aplicación web full-stack para la gestión de suministros espaciales, administr
 | React Router DOM | 7.16.0 | Enrutamiento del lado del cliente |
 | Tailwind CSS | 3.4.1 | Framework de estilos utilitario |
 | shadcn/ui | — | Componentes de UI basados en Radix |
-| Recharts | 3.8.1 | Gráficos y visualización de datos |
-| Lucide React | 0.344.0 | Iconos SVG |
-| Radix UI | ^1.x | Componentes accesibles headless |
-| PostCSS / Autoprefixer | — | Procesamiento de CSS |
-| ESLint | — | Linter de código |
+
 
 ### IDEs y Herramientas
 
@@ -46,7 +42,7 @@ Aplicación web full-stack para la gestión de suministros espaciales, administr
 | IntelliJ IDEA | Desarrollo del backend (Spring Boot) |
 | VS Code | Desarrollo del frontend (React) |
 | MySQL Workbench (recomendado) | Gestión de base de datos |
-| Postman / Insomnia (recomendado) | Pruebas de API REST |
+| Postman | Pruebas de API REST |
 
 ---
 
@@ -169,7 +165,7 @@ Editar `Backend/tienda/src/main/resources/application.properties`:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/nasa?useSSL=false&allowPublicKeyRetrieval=true
 spring.datasource.username=tu_nombredeusuario
-spring.datasource.password=tu contraseña
+spring.datasource.password=tu_contraseña
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=update
@@ -203,7 +199,7 @@ cd Backend/tienda
 ./mvnw.cmd spring-boot:run
 ```
 
-El backend se iniciará en `http://localhost:8080`.
+El backend se iniciará en `http://localhost:8080` Prueba http://localhost:8080/swagger-ui/index.html#/.
 
 ### Frontend (React + Vite)
 
@@ -222,7 +218,7 @@ El frontend se iniciará en `http://localhost:5173`.
 
 ### Verificar la Conexión
 
-1. Backend corriendo en `http://localhost:8080`
+1. Backend corriendo en `http://localhost:8080/swagger-ui/index.html#/`
 2. Frontend corriendo en `http://localhost:5173`
 3. Abrir `http://localhost:5173` en el navegador
 4. Registrar un nuevo usuario o iniciar sesión
@@ -268,5 +264,5 @@ npm run preview
 ---
 
 ## TRABAJO COLABORATIVO CONTEXTUALIZADO RANDOM CODE
-
-Este proyecto es de uso educativo y académico. Desarrollado como parte del curso de **Topicos Avanzados de Software** — Universidad de Cartagena.
+## TOPICOS AVANZADOS DE SOFTWARE 
+## UNIVERSIDAD DE CARTAGENA - CENTRO TUTORIAL LORICA
